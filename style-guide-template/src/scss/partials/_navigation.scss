@@ -78,3 +78,29 @@ header {
     }
   }
 }
+
+.cd-primary-nav{
+    ul li a{
+        color: darken($color-3, 20%);
+        
+        &:hover{
+            color: $color-3;
+        }
+        &:active{
+            color: lighten($color-3, 10%);
+        }
+    }
+}
+
+.cd-secondary-nav{
+    ul li a{
+        color: darken($color-4, 30%);
+        
+        &:hover{
+            color: $color-4;
+        }
+        &:active{
+            color: lighten($color-4, 20%);
+        }
+    }
+}
